@@ -1,0 +1,10 @@
+####{BSB GENERATED: NO EDIT
+FLG -ppx '/Users/user/react-storybook/node_modules/rescript/darwin/bsc.exe -as-ppx -bs-jsx 3'
+S /Users/user/react-storybook/node_modules/rescript/lib/ocaml
+B /Users/user/react-storybook/node_modules/rescript/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S /Users/user/react-storybook/node_modules/@rescript/react/lib/ocaml
+B /Users/user/react-storybook/node_modules/@rescript/react/lib/ocaml
+S src/rescript
+B lib/bs/src/rescript
+####BSB GENERATED: NO EDIT}

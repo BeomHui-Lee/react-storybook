@@ -3,21 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rescript/react": "^0.10.3",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.2"
+    "rescript": "^9.1.4",
+    "typescript": "^4.5.4",
+    "web-vitals": "^2.1.2",
+    "bs-fetch": "^0.6.2"
   },
+  "keywords": [
+    "rescript",
+    "react"
+  ],
   "scripts": {
+    "go": "bsb -make-world -w",
+    "rclean": "rescript clean",
+    "rbuild": "rescript build",
+    "rwatch": "rescript build -w",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=ca719b039b21",
+    "dev": "nodemon $f"
   },
   "eslintConfig": {
     "extends": [
@@ -34,6 +48,15 @@
         }
       }
     ]
+  },
+  "browser": {
+    "crypto": false,
+    "fs": false,
+    "path": false,
+    "os": false,
+    "net": false,
+    "stream": false,
+    "tls": false
   },
   "browserslist": {
     "production": [
@@ -56,6 +79,11 @@
     "@storybook/node-logger": "^6.4.9",
     "@storybook/preset-create-react-app": "^4.0.0",
     "@storybook/react": "^6.4.9",
-    "webpack": "^5.65.0"
+    "@types/node": "^17.0.10",
+    "chromatic": "^6.2.1",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "bs-platform": "8.3.0"
   }
 }
