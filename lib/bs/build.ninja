@@ -8,7 +8,7 @@ rule deps
   restat = 1
 o src/rescript/day3.d : deps src/rescript/day3.ast
 rule mij
-  command = /Users/user/react-storybook/node_modules/rescript/darwin/bsc.exe -I src/stories/assets -I src/stories -I src/aoc2020 -I src/rescript -I src -I /Users/user/react-storybook/node_modules/@rescript/react/lib/ocaml   -bs-package-name advent-of-code-rescript -bs-package-output commonjs:$in_d:.bs.js -bs-v $g_finger $i
+  command = /Users/user/react-storybook/node_modules/rescript/darwin/bsc.exe -I src/shared -I src/stories/assets -I src/stories -I src/aoc2020 -I src/rescript -I src -I /Users/user/react-storybook/node_modules/@rescript/react/lib/ocaml   -bs-package-name advent-of-code-rescript -bs-package-output commonjs:$in_d:.bs.js -bs-v $g_finger $i
   dyndep = 1
   restat = 1
 o src/rescript/day3.cmj src/rescript/day3.cmi ../../src/rescript/day3.bs.js : mij src/rescript/day3.ast

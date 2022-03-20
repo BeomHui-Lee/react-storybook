@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eace5f44-667b-4c45-9b28-7234f90b7175" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stories/NewButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="eace5f44-667b-4c45-9b28-7234f90b7175" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bs/.bsdeps" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bs/.bsdeps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bs/.compiler.log" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bs/.compiler.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bs/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bs/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bs/.sourcedirs.json" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bs/.sourcedirs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bs/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bs/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/bs/src/rescript/day3.cmt" beforeDir="false" afterPath="$PROJECT_DIR$/lib/bs/src/rescript/day3.cmt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rescript/day3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/rescript/day3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +32,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="22LSl2Tdi4ohYD4VckMQSFQLaDf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,17 +45,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/seminar/useCallback" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/seminar/useCallback" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/seminar/useCallback" />
+      <recent name="$PROJECT_DIR$/src/seminar/useMemo" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -140,6 +153,23 @@
       <workItem from="1642554279750" duration="21103000" />
       <workItem from="1642587010102" duration="1389000" />
       <workItem from="1642633277461" duration="3467000" />
+      <workItem from="1642679512550" duration="754000" />
+      <workItem from="1642721884045" duration="3596000" />
+      <workItem from="1642737137887" duration="9483000" />
+      <workItem from="1642760562141" duration="1229000" />
+      <workItem from="1642924494167" duration="1284000" />
+      <workItem from="1642947105290" duration="1971000" />
+      <workItem from="1642979722803" duration="8886000" />
+      <workItem from="1642999502154" duration="1255000" />
+      <workItem from="1643025926495" duration="2178000" />
+      <workItem from="1643070697830" duration="619000" />
+      <workItem from="1643072247423" duration="43000" />
+      <workItem from="1643072311737" duration="68000" />
+      <workItem from="1644375716223" duration="28000" />
+      <workItem from="1645021144078" duration="3407000" />
+      <workItem from="1645058510033" duration="4808000" />
+      <workItem from="1647561468306" duration="21346000" />
+      <workItem from="1647738709234" duration="37000" />
     </task>
     <servers />
   </component>
@@ -156,9 +186,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
